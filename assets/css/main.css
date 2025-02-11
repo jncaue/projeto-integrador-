@@ -1594,7 +1594,7 @@ ul.big-image-list li img {
 ul.link-list li {
 	list-style: square;
 	list-style-position: inside;
-	color: #77855d;
+	color: #474e43;
 	padding: 0.75em 0 0 0;
 	margin: 0.75em 0 0 0;
 }
@@ -2229,13 +2229,35 @@ ul.link-list li:first-child {
 
 .middle-content h2 {
 	font-size: 4rem;
-	font-weight: 600;
+	font-weight: 700;
 	padding-bottom: 0;
 	margin-bottom: 0.5rem;
 }
 
 
 /* btn1 */
+
+.first-content h2{
+	color: #283121;
+	font-weight: 500;
+	font-size: 2rem;
+	margin-bottom: 0.25rem;
+}
+
+.first-content h3{
+	color: #787e74;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+.last-content img {
+	width: 100%;
+}
+
+.right-sec img {
+	width: 100%;
+	height: 20rem;
+}
 
 .btn1-sec h2 {
 	font-size: 2rem;
