@@ -2223,6 +2223,7 @@ ul.link-list li:first-child {
 .social-h2 {
 	color: #f3f3f3;
 	font-size: 1.5rem;
+	text-decoration: underline;
 }
 
 /* alterações no btn-1 */
