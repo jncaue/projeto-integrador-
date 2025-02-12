@@ -1687,14 +1687,14 @@ ul.link-list li:first-child {
 	right: 40px;
 	top: 1px;
 	line-height: 84px;
-	text-transform: lowercase;
+	text-transform: initial;
 	font-size: 1.3em;
 	letter-spacing: -1px;
 }
 
 #header nav a {
 	display: inline-block;
-	text-decoration: none;
+	text-decoration: underline;
 	color: #fff;
 	padding: 0 25px 0 25px;
 	outline: 0;
