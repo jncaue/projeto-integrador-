@@ -2212,18 +2212,19 @@ ul.link-list li:first-child {
 	flex-direction: column;
 	flex: 1;
 	width: 100%;
-	padding-inline: 1rem;
+	padding-right: 0.4rem;
 	color: #f3f3f3;
 }
 
 .social-li img {
-	width: 2.5rem;
+	width: 2rem;
 }
 
 .social-h2 {
 	color: #f3f3f3;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	text-decoration: underline;
+	margin-right: 1.2rem;
 }
 
 /* alterações no btn-1 */
