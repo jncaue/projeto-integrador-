@@ -241,7 +241,11 @@ strong {
 img.left {
 	float: left;
 	margin: 2px 1.25em 0 0;
-	border-radius: 100%;
+	
+}
+img.left-update {
+	width: 100%;;
+	margin-block: 2em;
 }
 
 img.top {
@@ -1578,9 +1582,9 @@ ul.small-image-list li {
 	margin-block: 2em;
 }
 
-ul.small-image-list li img {
-	width: 78px;
-}
+/* ul.small-image-list li img {
+	width: 10rem;
+} */
 
 ul.big-image-list li {
 	overflow: hidden;
@@ -1592,8 +1596,7 @@ ul.big-image-list li img {
 }
 
 ul.link-list li {
-	list-style: square;
-	list-style-position: inside;
+	
 	color: #474e43;
 	padding: 0.75em 0 0 0;
 	margin: 0.75em 0 0 0;
@@ -2239,14 +2242,14 @@ ul.link-list li:first-child {
 
 /* btn1 */
 
-.first-content h2{
+.first-content h2 {
 	color: #283121;
 	font-weight: 500;
 	font-size: 2rem;
 	margin-bottom: 0.25rem;
 }
 
-.first-content h3{
+.first-content h3 {
 	color: #787e74;
 	font-weight: 500;
 	font-size: 1.2rem;
@@ -2268,3 +2271,8 @@ ul.link-list li:first-child {
 
 /* Atendimento */
 
+/* Galeria */
+
+.image-list {
+	width: 100%;
+}
