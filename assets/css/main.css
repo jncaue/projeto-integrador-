@@ -245,7 +245,7 @@ img.left {
 }
 img.left-update {
 	width: 100%;;
-	margin-block: 2em;
+	margin-bottom: 2em;
 }
 
 img.top {
@@ -254,7 +254,7 @@ img.top {
 }
 
 ul {
-	padding: 0.25em 0 0 0;
+	/* padding: 0.25em 0 0 0; */
 }
 
 a {
@@ -1579,7 +1579,7 @@ section.blog-post .blog-post-image {
 
 ul.small-image-list li {
 	overflow: hidden;
-	margin-block: 2em;
+	/* margin-block: 2em; */
 }
 
 /* ul.small-image-list li img {
