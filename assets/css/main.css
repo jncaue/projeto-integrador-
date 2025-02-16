@@ -256,7 +256,7 @@ img.top {
 }
 
 ul {
-	/* padding: 0.25em 0 0 0; */
+	padding: 0.25em 0 0 0;
 }
 
 a {
@@ -1618,7 +1618,7 @@ ul.link-list li:first-child {
 	display: inline-block;
 	padding: 15px 25px 15px 25px;
 	border-radius: 10px;
-	text-transform: lowercase;
+	text-transform: initial;
 	text-decoration: none;
 	color: #fff;
 	font-size: 1em;
@@ -2151,9 +2151,7 @@ ul.link-list li:first-child {
 
 /* alterações gerais */
 
-.line {
-	background-color: #283121;
-}
+
 
 .icon-48 {
 	width: 1.6rem;
@@ -2164,11 +2162,25 @@ ul.link-list li:first-child {
 /* alterações do gerais e index */
 
 
+.step-by-step {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.controls .button {
+	margin-block: 1.5rem;
+}
+
+.h1-button {
+	font-size: 2.3rem;
+}
+
 .ul-main {
 	display: flex;
 	flex-direction: column;
 	background: linear-gradient(to bottom, #dee7db, #FFFFFF);
-	/* border-radius: 1rem; */
 	padding: 0.7rem;
 	padding-bottom: 5rem;
 	margin-bottom: 2rem;
@@ -2206,7 +2218,6 @@ ul.link-list li:first-child {
 }
 
 .social-ul {
-	/* border: 1px solid red; */
 	display: flex;
 
 }
@@ -2231,7 +2242,7 @@ ul.link-list li:first-child {
 	margin-right: 1.2rem;
 }
 
-/* alterações no btn-1 */
+/* alterações no mais informações */
 
 .middle-content h2 {
 	font-size: 3rem;
@@ -2241,7 +2252,7 @@ ul.link-list li:first-child {
 }
 
 
-/* btn1 */
+/* mais informações */
 
 .first-content h2 {
 	color: #283121;
@@ -2281,7 +2292,7 @@ ul.link-list li:first-child {
 	color: #f3f3f3;
 }
 
-.row-s h2{
+.row-s h2 {
 	color: inherit;
 }
 
@@ -2323,7 +2334,7 @@ ul.link-list li:first-child {
 	padding: 0;
 	gap: 0;
 	font-size: 2rem;
-	
+
 }
 
 .container-block p {
@@ -2331,7 +2342,7 @@ ul.link-list li:first-child {
 	padding: 0;
 	gap: 0;
 	font-size: 1rem;
-	
+
 }
 
 .info-up h1 {
@@ -2344,9 +2355,62 @@ ul.link-list li:first-child {
 
 }
 
-.container
 /* Galeria */
 
 .image-list {
 	width: 100%;
+}
+
+/* veja detalhadamente */
+
+.sbs {
+	margin-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.sbs h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 3rem;
+	font-weight: 600;
+	color: #474e43;
+}
+
+
+.sbs img {
+	width: 50%;
+	margin-block: 2rem;
+	border-radius: 10px;
+}
+
+.container-sbs {
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+}
+
+.container-sbs h4 {
+	font-size: 1.8rem;
+}
+
+.container-sbs p {
+	font-size: 1.3rem;
+	color: #48533B;
+}
+
+.container-sbs ul {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	list-style: disc;
+	list-style-position: inside ;
+}
+
+.container-sbs li {
+	margin: 0;
+	padding: 0;
+	font-size: 1.3rem;
+	color: #48533B;
 }
