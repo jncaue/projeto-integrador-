@@ -241,10 +241,12 @@ strong {
 img.left {
 	float: left;
 	margin: 2px 1.25em 0 0;
-	
+
 }
+
 img.left-update {
-	width: 100%;;
+	width: 100%;
+	;
 	margin-bottom: 2em;
 }
 
@@ -329,7 +331,6 @@ article:last-child {
 	align-items: stretch;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .row-img {
@@ -1596,7 +1597,7 @@ ul.big-image-list li img {
 }
 
 ul.link-list li {
-	
+
 	color: #474e43;
 	padding: 0.75em 0 0 0;
 	margin: 0.75em 0 0 0;
@@ -2271,6 +2272,79 @@ ul.link-list li:first-child {
 
 /* Atendimento */
 
+.row-s {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* border: 0.1rem solid black; */
+	color: #f3f3f3;
+}
+
+.row-s h2{
+	color: inherit;
+}
+
+.info {
+	/* centralizando */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-block: 1rem;
+	color: #f3f3f3;
+}
+
+.info-up {
+	background-color: #f3f3f3;
+	height: 15em;
+}
+
+.info-down {
+	color: #f3f3f3;
+	margin-inline: 4.5rem;
+	display: flex;
+	gap: 1rem;
+}
+
+.container-block {
+	width: 25rem;
+	color: #000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #f3f3f3;
+	border-radius: 5%;
+	padding: 1rem;
+}
+
+.container-block h2 {
+	margin: 0;
+	padding: 0;
+	gap: 0;
+	font-size: 2rem;
+	
+}
+
+.container-block p {
+	margin: 0;
+	padding: 0;
+	gap: 0;
+	font-size: 1rem;
+	
+}
+
+.info-up h1 {
+	padding-block: 2rem;
+	font-size: 3rem;
+	font-weight: 600;
+	color: #3c4531;
+	letter-spacing: 0.085rem;
+	text-decoration: overline;
+
+}
+
+.container
 /* Galeria */
 
 .image-list {
