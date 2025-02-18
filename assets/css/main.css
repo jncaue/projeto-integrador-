@@ -2400,7 +2400,7 @@ ul.link-list li:first-child {
 	padding: 0;
 	color: #000;
 	list-style: disc;
-	list-style-position: inside ;
+	list-style-position: inside;
 }
 
 .container-sbs li {
@@ -2414,9 +2414,38 @@ ul.link-list li:first-child {
 /* navbar -> nosso jardim */
 
 .title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 2.6rem;
 	font-weight: 600;
 	color: #3c4531;
 }
 
+.fig-container {
+	display: flex;
+	flex-direction: column;
+}
 
+.align-container {
+	margin-block: 5rem ;
+}
+
+.figure {
+	display: flex;
+	
+	gap: 2rem;
+}
+
+.fig-container img {
+	width: 10rem;
+	height: 100%;
+	border-radius: 1rem;
+}
+
+.fig-container h2 {
+	background-color: #dee7db;
+	padding: 0.2rem;
+	font-size: 2.2rem;
+
+}
