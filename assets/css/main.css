@@ -2152,7 +2152,6 @@ ul.link-list li:first-child {
 /* alterações gerais */
 
 
-
 .icon-48 {
 	width: 1.6rem;
 	height: auto;
@@ -2160,7 +2159,6 @@ ul.link-list li:first-child {
 }
 
 /* alterações do gerais e index */
-
 
 .step-by-step {
 	display: flex;
@@ -2242,7 +2240,7 @@ ul.link-list li:first-child {
 	margin-right: 1.2rem;
 }
 
-/* alterações no mais informações */
+/* alterações no button mais informações */
 
 .middle-content h2 {
 	font-size: 3rem;
@@ -2250,9 +2248,6 @@ ul.link-list li:first-child {
 	padding-bottom: 0;
 	margin-bottom: 0.5rem;
 }
-
-
-/* mais informações */
 
 .first-content h2 {
 	color: #283121;
@@ -2288,7 +2283,6 @@ ul.link-list li:first-child {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/* border: 0.1rem solid black; */
 	color: #f3f3f3;
 }
 
@@ -2361,7 +2355,7 @@ ul.link-list li:first-child {
 	width: 100%;
 }
 
-/* veja detalhadamente */
+/* button veja detalhadamente */
 
 .sbs {
 	margin-top: 5rem;
@@ -2392,7 +2386,8 @@ ul.link-list li:first-child {
 }
 
 .container-sbs h4 {
-	font-size: 1.8rem;
+	text-decoration: underline #77855d;
+	font-size: 2rem;
 }
 
 .container-sbs p {
@@ -2413,4 +2408,15 @@ ul.link-list li:first-child {
 	padding: 0;
 	font-size: 1.3rem;
 	color: #48533B;
+	padding-bottom: 1rem;
 }
+
+/* navbar -> nosso jardim */
+
+.title {
+	font-size: 2.6rem;
+	font-weight: 600;
+	color: #3c4531;
+}
+
+
