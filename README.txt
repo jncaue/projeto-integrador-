@@ -3,7 +3,7 @@ Projeto integrador-
 Integração da matéria de biologia, que uni conhecimentos com autoria web (HTML, CSS, Js e Sass);
 Passo a passo para a construção de um ecossistema
 Tema selecionado e trabalhado dentro de sala na matéria de biologia - Criação de um terrário auto-sustentavél
-Página Biotech, estruturada por Juan Cauê Menezes da Silva e Luiz Gustavo Targino
+Página Biotech, estruturada por Juan Cauê Menezes da Silva - 20221064010034 e Luiz Gustavo da Silveira Targino - 20221064010005
 
 
     RETIRADO DO MODELO PRONTO:  "https://html5up.net/minimaxing" (minimaxing)
